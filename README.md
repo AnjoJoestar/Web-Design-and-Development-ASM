@@ -1,12 +1,11 @@
-`**--- E-commerce Fashion Store Website ---**`
-
-**Use case diagram:**
+# ----- E-commerce Fashion Store Website -----
+## Use case diagram:
 ![image](https://github.com/user-attachments/assets/4e8b57c1-fa3e-42ec-95c3-b07197a6146d)
 
-****Wireframe**:**
+## Wireframe:
 ![image](https://github.com/user-attachments/assets/ba945798-d229-4963-bf17-55e3c3aef842)
 ![image](https://github.com/user-attachments/assets/5f87dc6a-0837-4236-835a-158595edd23e)
-****Website UI**:**
+## Website UI:
 - Home page:
 ![image](https://github.com/user-attachments/assets/162650cf-feb4-46aa-9202-3d394db5aeff)
 ![image](https://github.com/user-attachments/assets/2868ca75-e161-4472-847f-de26d83d3f05)
@@ -17,7 +16,7 @@
 - Login page:
 ![image](https://github.com/user-attachments/assets/144a840c-7a0b-4991-a9c8-8727184d2d05)
 
-- Regiter page:
+- Register page:
 ![image](https://github.com/user-attachments/assets/08363cc4-732f-49ad-a960-9743e4170e57)
 
 - Profile page:
