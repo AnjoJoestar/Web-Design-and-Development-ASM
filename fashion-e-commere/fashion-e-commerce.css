@@ -1,0 +1,449 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light sea blue */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Section */
+header {
+    background: #0077b6; /* Deep sea blue */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Container */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-container img {
+    height: 70px; /* Increased logo size */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: contain;
+    border-radius: 10px; /* Slight rounding for a polished look */
+}
+
+.logo-container h1 {
+    font-size: 32px; /* Larger font size */
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    white-space: nowrap; /* Prevents wrapping */
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Icons */
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+#account-icon, #cart-icon {
+    width: 35px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Shopping Cart */
+#cart-container {
+    position: relative;
+}
+
+#cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: red;
+    color: white;
+    font-size: 14px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Search Bar */
+#search {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Product Display */
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 15px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    background: #0096c7; /* Bright sea blue */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00b4d8; /* Lighter sea blue */
+}
+
+/* Banner - Fixed Full Width */
+#banner {
+    position: relative;
+    width: 100vw; /* Full width */
+    height: 450px; /* Fixed height */
+    overflow: hidden;
+}
+
+#banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Prevents distortion */
+}
+
+/* Banner Navigation Buttons */
+#prev-btn, #next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 119, 182, 0.6);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#prev-btn { left: 10px; }
+#next-btn { right: 10px; }
+
+#prev-btn:hover, #next-btn:hover {
+    background: rgba(0, 119, 182, 1);
+}
+
+/* Modal (Login & Register) */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 119, 182, 0.3);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0077b6;
+    color: white;
+    padding: 40px 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Footer Container - Multi-column Layout */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Footer Section */
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+}
+
+/* Section Titles */
+.footer-section h3,
+.footer-section h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #f0f8ff;
+}
+
+/* Quick Links & Customer Service */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-section ul li a:hover {
+    color: #90e0ef;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons a img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+    background-color: white;
+    padding: 5px;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+}
+
+/* Newsletter Form */
+.footer-section form {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer-section input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    flex: 1;
+    font-size: 1rem;
+}
+
+.footer-section button {
+    padding: 10px 20px;
+    background-color: #0096c7;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.footer-section button:hover {
+    background-color: #00b4d8;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+}
+
+
+/* Main Content - Prevent Footer Overlapping */
+main {
+    flex: 1;
+    padding-bottom: 50px; /* Creates space below */
+}
+/* Logo and Store Name */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 50px; /* Adjust as needed */
+    margin-right: 10px;
+}
+
+.logo-container h1 {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Auth Container */
+.auth-container {
+    background-color: #fff;
+    padding: 30px;
+    width: 300px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Heading */
+.auth-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+/* Paragraph */
+.auth-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Buttons */
+.auth-btn {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+/* Button Colors */
+.login-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+.register-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.register-btn:hover {
+    background-color: #218838;
+}
+
+/* Close Button */
+.auth-close-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.auth-close-btn:hover {
+    background-color: #c82333;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
