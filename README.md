@@ -3,8 +3,22 @@
 ![image](https://github.com/user-attachments/assets/4e8b57c1-fa3e-42ec-95c3-b07197a6146d)
 
 ## Wireframe:
-![image](https://github.com/user-attachments/assets/ba945798-d229-4963-bf17-55e3c3aef842)
-![image](https://github.com/user-attachments/assets/5f87dc6a-0837-4236-835a-158595edd23e)
+- Home page:
+![image](https://github.com/user-attachments/assets/5db1cc0d-db7b-43ba-9b99-69ff884e1500)
+![image](https://github.com/user-attachments/assets/b9daaf54-204e-4548-8d27-14c28bb4102d)
+
+- Login page:
+![image](https://github.com/user-attachments/assets/8b5494a9-9fd0-4611-b197-07805e8e3149)
+
+- Register page:
+![image](https://github.com/user-attachments/assets/7d08b9f0-bc1e-43ef-937b-bd06d43698e7)
+
+- Contact form page:
+![image](https://github.com/user-attachments/assets/5fba4dee-bc44-4250-a2af-bfa3b7c76050)
+
+- Shopping cart page:
+![image](https://github.com/user-attachments/assets/4dddb8db-8f99-4ddf-ae5b-7b742921e81b)
+
 ## Website UI:
 - Home page:
 ![image](https://github.com/user-attachments/assets/162650cf-feb4-46aa-9202-3d394db5aeff)
